@@ -42,7 +42,7 @@ body {
     flex-direction: row;
     justify-content: start;
     padding: 40px;
-    background-image: url("./assets/images/main.jpg");
+    background-image: url("./assets/images/Windows\ 11\ Wallpapers\ Re-Imagined.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     border: 0.1px solid rgb(46, 46, 46);
@@ -82,6 +82,9 @@ body {
     padding: 40px;
     cursor: default;
     transition: background-color 1.15s, border-color 1.15s;
+    background-image: url(./assets/images/peg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bio-box:hover {
@@ -96,13 +99,14 @@ h2 {
 
 .bio-text {
     color: lightgray;
-    font-family: Fira Code;
-    font-size: 19px;
-    text-align:justify;
+    font-family: League Spartan;
+    font-size: 30px;
+    text-align: justify;
     padding-left: 80px;
     padding-right: 80px;
     font-weight: bold;
     transition: color 600ms;
+    line-height: 35px;
 }
 
 .bio-text:hover {
@@ -118,7 +122,7 @@ h2 {
 
 .skills-box {
     border-radius: 20px;
-    width: 800px;
+    width: fit-content;
     margin-left: 40px;
     background-color: rgb(22, 22, 22);
     border: 0.1px solid rgb(46, 46, 46);
@@ -170,12 +174,14 @@ h2 {
 .bio-title {
     color: rgb(255, 255, 255);
     font-family: Fira Code, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .bio-titles-box {
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
+
 }
 
 .bio-box {
@@ -187,11 +193,10 @@ h2 {
 .showcase {
     border-radius: 0px 0px 20px 20px;
     padding: 40px;
-    background-image: url(./assets/images/corals-3840x2160-abstract-colorful-spiral-25310.jpeg);
+    background-image: url(./assets/images/abstract-wavy-background\ \(1\).jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     display: flex;
-    height: 2150px;
     flex-wrap: wrap;
     justify-content: space-between;
     border: 0.1px solid rgb(46, 46, 46);
@@ -302,6 +307,7 @@ h2 {
     font-weight: bold;
     margin-bottom: 60px;
     transition: font 200ms;
+    text-align: justify;
 }
 
 .p-des:hover {
@@ -357,11 +363,11 @@ h2 {
 }
 
 .profile {
-    height: 150px;
+    height: 200px;
     border-radius: 50%;
     border: 4px solid greenyellow;
     transition: border 1000ms;
-    margin-top: 40px;
+    margin-top: 70px;
     margin-bottom:20px;
 }
 
@@ -390,7 +396,7 @@ ol {
 }
 
 .ul1 {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 30px;
     text-align: justify;
     padding-left: 80px;
@@ -401,11 +407,11 @@ ol {
 }
 
 .ul1:hover {
-    color: #f06529;
+    color: #F06529;
 }
 
 .ul2 {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 30px;
     text-align: justify;
     padding-left: 80px;
@@ -416,11 +422,11 @@ ol {
 }
 
 .ul2:hover {
-    color: #2965f1;
+    color: #3C99DC;
 }
 
 .ul3 {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 30px;
     text-align: justify;
     padding-left: 80px;
@@ -428,17 +434,20 @@ ol {
     font-family: Fira Code;
     color: lightgray;
     transition: color 400ms;
+    margin-bottom: 100px;
 }
 
 .sec-text {
-        color: lightgray;
-        font-family: Fira Code;
-        font-size: 19px;
-        text-align:justify;
-        padding-left: 80px;
-        padding-right: 80px;
-        font-weight: bold;
-        transition: color 600ms;
+    color: lightgray;
+    font-family: League Spartan;
+    font-size: 30px;
+    text-align:justify;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: bold;
+    transition: color 600ms;
+    line-height: 35px;
+    margin-bottom: 100px;
     }
     
 .ul3:hover {
@@ -450,14 +459,14 @@ ol {
 }
 
 .email {
-    color: greenyellow;
-    font-family: Fira Code;
+    color: rgb(255, 255, 255);
+    font-family: League Spartan;
     background-color: rgb(51, 51, 51);
-    padding: 17px;
+    padding: 20px;
     border-radius: 50px;
-    font-weight: 100;
     margin-right: 40px;
     transition: background-color 400ms, color 400ms,font-weight 400ms;
+    font-size: 20px;
 }
 
 .email:hover {
@@ -467,12 +476,12 @@ ol {
 }
 
 .number {
-    color: greenyellow;
-    font-family: Fira Code;
+    color: rgb(255, 255, 255);
+    font-family: League Spartan;
     background-color: rgb(51, 51, 51);
-    padding: 17px;
+    padding: 20px;
+    font-size: 20px;
     border-radius: 50px;
-    font-weight: 100;
     transition: background-color 400ms, color 400ms,font-weight 400ms;
 }
 
@@ -484,15 +493,16 @@ ol {
 
 .contact {
     display: flex;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    flex-direction: row;
+    margin-bottom: 60px;
 }
 
 .skills-box {
-    background-image: url(./assets/images/macbook-pro-m3-5120x2880-2023-5k-black-25425\ \(1\).jpeg);
+    background-image: url(./assets/images/iQOO\ U1\ Wallpaper\ \(YTECHB\ Exclusive\).jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     transition: border-color 1.15s;
+    padding: 40px;
 }
 
 .skills-box:hover {
@@ -502,8 +512,12 @@ ol {
 .hero-title-code2 {
     font-family: Fira Code, Helvetica, sans-serif;
     color: greenyellow;
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-bottom: 50px;
-    margin-top: 40px;
+    font-size: 30px;
+}
+
+.statement {
+    color: white;
+    font-family: League Spartan;
+    font-size: 150px;
+    margin-top: 450px;
 }
