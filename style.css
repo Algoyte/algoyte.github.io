@@ -1,0 +1,498 @@
+body {
+    background-color: #000000;
+    margin: 40px;
+}
+
+.header {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    height: 50px;
+    width: auto;
+}
+
+.header-logo:hover {
+    cursor: pointer;
+}
+
+.github-logo-1 {
+    height: 40px;
+    width: auto;
+    transition: opacity 200ms, height 200ms;
+}
+
+.github-logo-1:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    height: 50px;
+}
+
+.hero-box {
+    height: 800px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: start;
+    padding: 40px;
+    background-image: url("./assets/images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.1px solid rgb(46, 46, 46);
+    transition: border-color 1.15s;
+}
+
+.hero-box:hover {
+    border-color: rgb(61, 61, 61);
+
+}
+
+.hero-title {
+    color: white;
+    font-family: Fira Code;
+    font-size: 70px;
+}
+
+.hero-title-code {
+    font-family: Fira Code, Helvetica, sans-serif;
+    color: greenyellow;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.bio-skills {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.bio-box {
+    border-radius: 20px;
+    height: fit-content;
+    width: 1000px;
+    background-color: rgb(22, 22, 22);
+    border: 0.1px solid rgb(46, 46, 46);
+    padding: 40px;
+    transition: background-color 1.15s, border-color 1.15s;
+}
+
+.bio-box:hover {
+    background-color: rgba(22, 22, 22, 0.548);
+    border-color: rgb(61, 61, 61);
+}
+
+h2 {
+    color: white;
+    font-family: League Spartan;
+}
+
+.bio-text {
+    color: lightgray;
+    font-family: Fira Code;
+    font-size: 19px;
+    text-align:justify;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: bold;
+    transition: color 600ms;
+}
+
+.bio-text:hover {
+    color: greenyellow;
+}
+
+.rocket {
+    font-family: Fira Code;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.skills-box {
+    border-radius: 20px;
+    width: 800px;
+    margin-left: 40px;
+    background-color: rgb(22, 22, 22);
+    border: 0.1px solid rgb(46, 46, 46);
+}
+
+.footer {
+    height: 100px;
+    margin-top: 40px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(./assets/images/iphone-15-pro-3840x2160-black-sand-ios-17-25172.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+    border: 0.1px solid rgb(46, 46, 46);
+    transition: border-color 1.15s;
+}
+
+.footer:hover {
+    border-color: rgb(61, 61, 61);
+}
+
+.footer-logo {
+    height: 50px;
+}
+
+.git-logo {
+    height: 50px;
+    transition: opacity 200ms, height 200ms;
+}
+
+.footer-logo:hover {
+    cursor: pointer;
+}
+
+.git-logo:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    height: 60px;
+}
+
+.bio-title {
+    color: rgb(255, 255, 255);
+    font-family: Fira Code, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.bio-titles-box {
+    display: flex;
+    align-items: center;
+}
+
+.bio-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase {
+    border-radius: 0px 0px 20px 20px;
+    padding: 40px;
+    background-image: url(./assets/images/corals-3840x2160-abstract-colorful-spiral-25310.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 0.1px solid rgb(46, 46, 46);
+    transition: border-color 1.15s;
+}
+
+.showcase:hover {
+    border-color: rgb(61, 61, 61);
+}
+
+.project-box-1 {
+    height: fit-content;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    opacity: 0.8;
+    background-color: rgb(22, 22, 22);
+    border: 0.1px solid rgb(46, 46, 46);
+    transition: opacity 200ms, font-size 200ms;
+}
+
+.project-box-1:hover {
+    opacity: unset;
+    font-size: large;
+    cursor: default;
+}
+
+.proj-img {
+    height: 500px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.p-t1-box {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: League Spartan;
+    font-size: small;
+}
+
+.proj-name {
+    font-family: League Spartan;
+    color: white;
+    margin: 40px;
+}
+
+.tech-used {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.tech {
+    margin-left: 40px;
+}
+
+.html-word {
+    margin-right: 20px;
+    font-family: Fira Code;
+    color: greenyellow;
+    font-size: 20px;
+    background-color: rgb(51, 51, 51);
+    padding: 10px;
+    border-radius: 20px;
+    transition: background-color 200ms, color 200ms, font-weight 200ms;
+}
+
+.css-word {
+    margin-right: 20px;
+    font-family: Fira Code;
+    color: greenyellow;
+    font-size: 20px;
+    background-color: rgb(51, 51, 51);
+    padding: 10px;
+    border-radius: 20px;
+    transition: background-color 200ms, color 200ms, font-weight 200ms;
+}
+
+.html-word:hover {
+    background-color: #FF5733;
+    color: white;
+    transition: 500ms;
+    cursor:default;
+    font-weight: bold;
+}
+
+.css-word:hover {
+    background-color: #264de4;
+    color: white;
+    transition: 500ms;
+    cursor:default;
+    font-weight: bold;
+}
+
+.column-this {
+    display: flex;
+}
+
+.p-des {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: greenyellow;
+    font-family: Fira Code;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    transition: font 200ms;
+}
+
+.p-des:hover {
+    font-size: large;
+}
+
+.copy {
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgb(29, 29, 29);
+    padding: 0.5px;
+    color: rgb(151, 151, 151);
+    font-family: League Spartan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border: 0.1px solid rgb(46, 46, 46);
+    transition: border-color 1.15s, background-color 1.15s;
+}
+
+.copy:hover {
+    background-color: rgba(22, 22, 22, 0.548);
+    border-color: rgb(61, 61, 61);
+}
+
+.showcase-title {
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: rgb(22, 22, 22);
+    border: 0.1px solid rgb(46, 46, 46);
+    transition: background-color 1.15s, border-color 1.15ms;
+}
+
+.showcase-title:hover {
+    background-color: rgba(22, 22, 22, 0.548);
+    border-color: rgb(61, 61, 61);
+}
+
+
+.showcase-text {
+    font-size: 40px;
+    font-family: Fira Code;
+    color: white;
+}
+
+.footer-img {
+    height: 15px;
+    margin-right: 10px;
+    opacity: 0.6;
+}
+
+.profile {
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid greenyellow;
+    transition: border 1000ms;
+    margin-top: 40px;
+    margin-bottom:20px;
+}
+
+.profile:hover {
+    border-color: white;
+}
+
+ol {
+    color: white;
+    font-family: Fira Code;
+}
+
+.span-1 {
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.span-2{
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.span-3 {
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.ul1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: Fira Code;
+    color: lightgray;
+    transition: color 400ms;
+}
+
+.ul1:hover {
+    color: #f06529;
+}
+
+.ul2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: Fira Code;
+    color: lightgray;
+    transition: color 400ms;
+}
+
+.ul2:hover {
+    color: #2965f1;
+}
+
+.ul3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: Fira Code;
+    color: lightgray;
+    transition: color 400ms;
+}
+
+.sec-text {
+        color: lightgray;
+        font-family: Fira Code;
+        font-size: 19px;
+        text-align:justify;
+        padding-left: 80px;
+        padding-right: 80px;
+        font-weight: bold;
+        transition: color 600ms;
+    }
+    
+.ul3:hover {
+    color: #f0db4f;
+}
+
+.sec-text:hover {
+    color: greenyellow;
+}
+
+.email {
+    color: greenyellow;
+    font-family: Fira Code;
+    background-color: rgb(51, 51, 51);
+    padding: 17px;
+    border-radius: 50px;
+    font-weight: 100;
+    margin-right: 40px;
+    transition: background-color 400ms, color 400ms,font-weight 400ms;
+}
+
+.email:hover {
+    background-color: greenyellow;
+    color:#000000;
+    font-weight: bold;
+}
+
+.number {
+    color: greenyellow;
+    font-family: Fira Code;
+    background-color: rgb(51, 51, 51);
+    padding: 17px;
+    border-radius: 50px;
+    font-weight: 100;
+    transition: background-color 400ms, color 400ms,font-weight 400ms;
+}
+
+.number:hover {
+    background-color: greenyellow;
+    color:#000000;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    margin-top: 25px;
+}
+
+.skills-box {
+    background-image: url(./assets/images/macbook-pro-m3-5120x2880-2023-5k-black-25425\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: border-color 1.15s;
+}
+
+.skills-box:hover {
+    border-color: rgb(61, 61, 61);
+}
+
+.hero-title-code2 {
+    font-family: Fira Code, Helvetica, sans-serif;
+    color: greenyellow;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
