@@ -76,6 +76,7 @@ body {
     background-color: rgb(22, 22, 22);
     border: 0.1px solid rgb(46, 46, 46);
     padding: 40px;
+    cursor: default;
     transition: background-color 1.15s, border-color 1.15s;
 }
 
@@ -182,6 +183,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    height: 2150px;
     flex-wrap: wrap;
     justify-content: space-between;
     border: 0.1px solid rgb(46, 46, 46);
@@ -474,7 +476,8 @@ ol {
 
 .contact {
     display: flex;
-    margin-top: 25px;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .skills-box {
